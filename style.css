@@ -1,0 +1,130 @@
+body {
+  font-family: "Lato", sans-serif;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+/* btn */
+.btn-primary {
+  padding: 20px 43px;
+  border-radius: 8px;
+  background: #e55473;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+/* main */
+main section {
+  margin-bottom: 130px;
+}
+/* Banner Section */
+
+.banner {
+  height: 850px;
+  background: rgba(229, 84, 115, 0.1);
+}
+
+.banner-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 97px;
+}
+
+.banner-content {
+  padding: 197px 0 0 240px;
+  max-width: 708px;
+}
+
+.banner-title {
+  color: #272727;
+  font-size: 80px;
+  font-weight: 800;
+  line-height: normal;
+  margin: 0;
+}
+
+.banner-des {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.banner-image {
+  width: 635px;
+  height: 800px;
+  padding: 50px 240px 0 0;
+}
+
+/* Featured Flower section  */
+
+.featured {
+  text-align: center;
+}
+
+.featured-title {
+  color: #272727;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+}
+
+.featured-des {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  width: 600px;
+  margin: 0 auto;
+}
+
+.featured-flower-cards {
+  display: flex;
+  justify-content: space-around;
+  gap: 24px;
+  margin: 35px 240px;
+}
+
+.card img {
+  width: 310px;
+  height: 428px;
+}
+
+#card-1 {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+  padding: 118px 78px 0 78px;
+}
+
+#card-2 {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(5, 151, 160, 0.15);
+  padding: 110px 78px 0 78px;
+}
+
+#card-3 {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(71, 125, 17, 0.15);
+  padding: 117px 47px 0 47px;
+}
+
+.cards-titles {
+  display: flex;
+  justify-content: space-around;
+  gap: 307px;
+  margin: 0 381px;
+}
+
+.title {
+  color: #272727;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 35px;
+  text-decoration-line: underline;
+}
