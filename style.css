@@ -199,3 +199,74 @@ main section {
   margin: 0 240px;
   padding: 48px;
 }
+
+/* latest deal section */
+
+.latest-deal {
+  background-image: url("/Flower Asset/Rectangle 9.png");
+  width: 1440px;
+  height: 449px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.latest-deal-title {
+  padding-top: 122px;
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.latest-deal-des {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 48px;
+}
+
+.latest-deal input[type="email"] {
+  padding: 22px 513px 22px 22px;
+  border: 0;
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+  margin-right: 16px;
+  border-radius: 8px;
+}
+
+/* Footer */
+
+footer {
+  background: #111010;
+  text-align: center;
+  color: #fff;
+  height: 449px;
+  margin-top: 128px;
+}
+
+.footer-title {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 800;
+  padding-top: 128px;
+}
+
+.footer-des {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  width: 625px;
+  margin: 0 auto;
+}
+
+.footer-rights {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
