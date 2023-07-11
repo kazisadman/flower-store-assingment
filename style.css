@@ -241,6 +241,11 @@ main section {
   width: 1440px;
   margin: 0 auto;
 }
+
+.review-arrow {
+  margin-top: 80px;
+  cursor: pointer;
+}
 .customer-review-title {
   text-align: center;
   color: #272727;
