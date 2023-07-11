@@ -149,7 +149,7 @@ main section {
 
 .hot-deal-content {
   text-align: center;
-  padding-top: 230px;
+  padding-top: 190px;
 }
 
 .hot-deal-title {
@@ -227,13 +227,63 @@ main section {
 }
 
 .latest-deal input[type="email"] {
-  padding: 22px 513px 22px 22px;
+  padding: 22px 480px 22px 22px;
   border: 0;
   color: rgba(39, 39, 39, 0.6);
   font-size: 16px;
   font-weight: 400;
   margin-right: 16px;
   border-radius: 8px;
+}
+
+/* Customer review */
+.customer-review {
+  width: 1440px;
+  margin: 0 auto;
+}
+.customer-review-title {
+  text-align: center;
+  color: #272727;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  padding-top: 50px;
+}
+
+.review-cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 35px;
+}
+
+.card-head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-review-container {
+  display: flex;
+  justify-content: left;
+  gap: 10px;
+}
+
+.reviewer-info ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.card-review-container img {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+}
+
+.card-body {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
 }
 
 /* Footer */
